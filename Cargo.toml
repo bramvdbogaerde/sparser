@@ -1,0 +1,8 @@
+[package]
+name = "sparser"
+version = "0.1.0"
+authors = ["Bram Vandenbogaerde <bram.vandenbogaerde@gmail.com>"]
+
+[dependencies]
+pest = "1.0.0-beta.6"
+pest_derive = "1.0.0-beta.6"
