@@ -1,6 +1,8 @@
 S-expression parser in Rust
 =================================
 
+[![Documentation](https://docs.rs/sparser/badge.svg)](https://docs.rs/sparser)
+
 This library provides a way to easily parse S-expressions into a linked list. 
 It tries to mimic the `read` function in `r5rs` scheme.
 
