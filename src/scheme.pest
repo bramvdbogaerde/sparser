@@ -1,12 +1,12 @@
 scheme = {soi ~ list ~ eoi}
 space = _{" " | "\t" | "\r" | "\n"}
 
-list = {"(" ~ (space* ~ (literal | symbol | list | string | number | true_lit | false_lit) ~ space*)* ~ ")"}
+list = {"(" ~ (space* ~ (("'" ~ literal) | symbol | list | string | number | true_lit | false_lit) ~ space*)* ~ ")"}
 
 int = _{'0'..'9'}
 
 literalvars = _{list | symbol}
-literal = @{"'" ~ literalvars}
+literal = @{literalvars}
 
 number = {"-"? ~ (int)+ ~ ("." ~ int+)?}
 string = {"\"" ~ (any)* ~ "\""}

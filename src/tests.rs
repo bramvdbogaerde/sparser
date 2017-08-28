@@ -12,7 +12,7 @@ fn nested_list(){
 
 #[test]
 fn literals(){
-    assert_eq!(parse("(if 'symb)").cdr().car().unwrap_literal(), "\'symb")
+    assert_eq!(parse("(if 'symb)").cdr().car().unwrap_literal(), "symb")
 }
 
 #[test]
