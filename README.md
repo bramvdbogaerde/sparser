@@ -1,6 +1,7 @@
 S-expression parser in Rust
 =================================
 
+[![Crates.io](https://img.shields.io/badge/crates.io-0.1.0-brightgreen.svg)](https://crates.io/crates/sparser)
 [![Documentation](https://docs.rs/sparser/badge.svg)](https://docs.rs/sparser)
 
 This library provides a way to easily parse S-expressions into a linked list. 
